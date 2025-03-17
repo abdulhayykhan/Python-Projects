@@ -10,7 +10,7 @@ A simple quiz game where users answer random questions.
 ✔️ Text input for answers  
 ✔️ Immediate feedback (correct/wrong)  
 ✔️ "Next Question" button  
-[View Code]()
+[🔗 View Code]()
 
 ### 🔢 Number Guessing Game
 A game where the user guesses a randomly generated number.
@@ -18,7 +18,7 @@ A game where the user guesses a randomly generated number.
 ✔️ Hints: "Too high" or "Too low"  
 ✔️ Tracks number of attempts  
 ✔️ Input validation  
-[View Code]()
+[🔗 View Code]()
 
 ### 🔑 Password Strength Analyzer
 An app that checks the strength of a password and suggests improvements.
@@ -26,7 +26,7 @@ An app that checks the strength of a password and suggests improvements.
 ✔️ Suggests improvements  
 ✔️ Generates strong passwords  
 ✔️ Copy password to clipboard  
-[View Code]()
+[🔗 View Code]()
 
 ### ✊ Rock, Paper, Scissors Game
 A classic game where the user plays against the computer.
@@ -34,7 +34,7 @@ A classic game where the user plays against the computer.
 ✔️ User vs. Computer battle  
 ✔️ "Win/Loss/Tie" conditions  
 ✔️ Option to quit anytime  \
-[View Code]()
+[🔗 View Code]()
 
 ## 🛠 Technologies Used
 - **Python** for development  
