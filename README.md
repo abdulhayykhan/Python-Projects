@@ -6,6 +6,7 @@ Welcome to my **Python Projects** repository! This collection showcases various 
 
 ### 🔤 Flashcard Quiz App
 A simple quiz game where users answer random questions.
+
 ✔️ Randomized questions  
 ✔️ Text input for answers  
 ✔️ Immediate feedback (correct/wrong)  
@@ -14,6 +15,7 @@ A simple quiz game where users answer random questions.
 
 ### 🔢 Number Guessing Game
 A game where the user guesses a randomly generated number.
+
 ✔️ Random number between 1 and 100  
 ✔️ Hints: "Too high" or "Too low"  
 ✔️ Tracks number of attempts  
@@ -22,6 +24,7 @@ A game where the user guesses a randomly generated number.
 
 ### 🔑 Password Strength Analyzer
 An app that checks the strength of a password and suggests improvements.
+
 ✔️ Analyzes password security  
 ✔️ Suggests improvements  
 ✔️ Generates strong passwords  
@@ -30,6 +33,7 @@ An app that checks the strength of a password and suggests improvements.
 
 ### ✊ Rock, Paper, Scissors Game
 A classic game where the user plays against the computer.
+
 ✔️ Randomized computer choice  
 ✔️ User vs. Computer battle  
 ✔️ "Win/Loss/Tie" conditions  
