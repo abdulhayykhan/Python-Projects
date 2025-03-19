@@ -26,7 +26,7 @@ if "attempts" not in st.session_state:
 if "timer_start" not in st.session_state:
     st.session_state.timer_start = time.time()
 
-# Function to pick a new question
+# Function to get a new question
 def new_question():
     st.session_state.current_question = random.choice(list(questions.keys()))
     st.session_state.result = ""
@@ -34,7 +34,7 @@ def new_question():
 
 # Function to check the answer
 def check_answer():
-    user_answer = st.session_state.user_input.strip()
+    user_answer = st.session_state.get("user_input", "").strip()
     correct_answer = questions[st.session_state.current_question]
     
     st.session_state.attempts += 1
@@ -72,7 +72,7 @@ st.subheader("Test your knowledge and have fun!")
 st.write(f"**Question ({st.session_state.attempts + 1}):** {st.session_state.current_question}")
 
 # User input for answer
-st.session_state.user_input = st.text_input("Your Answer:", key="user_input")
+user_input = st.text_input("Your Answer:", key="user_input")
 
 # Buttons for checking answer and getting a new question
 col1, col2 = st.columns(2)
